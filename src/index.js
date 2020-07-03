@@ -1,6 +1,7 @@
 import "./styles.css";
 
 const cvs = document.getElementById("canvas");
+//ERROR CANNOT READY PROPERTY GETCONTEXT OF NULL
 const ctx = cvs.getContext("2d");
 let imageName = new Image();
 
