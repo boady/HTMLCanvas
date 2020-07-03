@@ -4,6 +4,14 @@ const cvs = document.getElementById("canvas");
 //ERROR CANNOT READY PROPERTY GETCONTEXT OF NULL
 const ctx = cvs.getContext("2d");
 let imageName = new Image();
+imageName.src - "path/img.png";
+let audioName = new Audio();
+audioName.src = "path/audio.png";
+
+ctx.drawImage(imageName, 40, 50, 25, 25);
+ctx.fillStyle = "red";
+ctx.fillRect(100, 300, 30, 30);
+function draw() {}
 
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
