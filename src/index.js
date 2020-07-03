@@ -1,7 +1,8 @@
 import "./styles.css";
 
 const cvs = document.getElementById("canvas");
-cvs.getContext("2d");
+const ctx = cvs.getContext("2d");
+let imageName = new Image();
 
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
